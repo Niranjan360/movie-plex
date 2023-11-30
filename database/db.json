@@ -1,0 +1,26 @@
+{
+    "movies": [
+        {"id": 1, "moviename": "KGF 1", "release_date": "2019", "poster": "https://rb.gy/33aevp"},
+        {"id": 1, "moviename": "KGF 1", "release_date": "2019", "poster": "https://rb.gy/33aevp"},
+        {"id": 2, "moviename": "Inception", "release_date": "2010", "poster": "https://rb.gy/33aevp"},
+        {"id": 3, "moviename": "The Shawshank Redemption", "release_date": "1994", "poster": "https://rb.gy/33aevp"},
+        {"id": 4, "moviename": "The Dark Knight", "release_date": "2008", "poster": "https://rb.gy/33aevp"},
+        {"id": 5, "moviename": "Interstellar", "release_date": "2014", "poster": "https://rb.gy/33aevp"},
+        {"id": 6, "moviename": "Pulp Fiction", "release_date": "1994", "poster": "https://rb.gy/33aevp"},
+        {"id": 7, "moviename": "Titanic", "release_date": "1997", "poster": "https://rb.gy/33aevp"},
+        {"id": 8, "moviename": "Avatar", "release_date": "2009", "poster": "https://rb.gy/33aevp"},
+        {"id": 9, "moviename": "Jurassic Park", "release_date": "1993", "poster": "https://rb.gy/33aevp"},
+        {"id": 10, "moviename": "The Godfather", "release_date": "1972", "poster": "https://rb.gy/33aevp"},
+        {"id": 11, "moviename": "Forrest Gump", "release_date": "1994", "poster": "https://rb.gy/33aevp"},
+        {"id": 12, "moviename": "Gladiator", "release_date": "2000", "poster": "https://rb.gy/33aevp"},
+        {"id": 13, "moviename": "The Matrix", "release_date": "1999", "poster": "https://rb.gy/33aevp"},
+        {"id": 14, "moviename": "The Avengers", "release_date": "2012", "poster": "https://rb.gy/33aevp"},
+        {"id": 15, "moviename": "Spider-Man: Into the Spider-Verse", "release_date": "2018", "poster": "https://rb.gy/33aevp"},
+        {"id": 16, "moviename": "The Lion King", "release_date": "1994", "poster": "https://rb.gy/33aevp"},
+        {"id": 17, "moviename": "Harry Potter and the Philosopher's Stone", "release_date": "2001", "poster": "https://rb.gy/33aevp"},
+        {"id": 18, "moviename": "The Shawshank Redemption", "release_date": "1994", "poster": "https://rb.gy/33aevp"},
+        {"id": 19, "moviename": "The Silence of the Lambs", "release_date": "1991", "poster": "https://rb.gy/33aevp"},
+        {"id": 20, "moviename": "Casablanca", "release_date": "1942", "poster": "https://rb.gy/33aevp"}
+    ]
+    
+}
