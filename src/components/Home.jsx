@@ -12,22 +12,21 @@ const Home = () => {
     } , [])
 
 
-
     return ( <div className="home-comp">
                 <h1>All movies</h1>
                 {movies && <div className="all-movies">
                     {
                         movies.map((movie)=>{
                             return(
-                                <div className='movie'>
-                                    <img src={movie.poster} alt="" />
+                                <div className='movie' 
+                                style={{background:`url(${movie.poster})`}}>
                                     <h1>{movie.moviename}</h1>
                                     <h3>{movie.release_date}</h3>
                                 </div>
                             )
                         })
                     }
-                            </div>}
+                </div>}
             </div> );
 }
  

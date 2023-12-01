@@ -1,5 +1,32 @@
 
 
 .home-comp{
-    margin-left: 350px;
+    margin-left: 400px;
+    padding: 20px;
 }
+.home-comp h1{
+    font-size: 34px;
+    margin: 10px 0px;
+}
+.all-movies{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+}
+.movie{
+    min-width: 200px;
+    width: 200px;
+    height: 270px;
+    margin: 0px 10px;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+.all-movies::-webkit-scrollbar{
+    height: 5px;
+}
+/* .all-movies::-webkit-scrollbar{
+} */
