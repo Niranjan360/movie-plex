@@ -1,12 +1,11 @@
 
 
 .home-comp{
-    margin-left: 400px;
     padding: 20px;
 }
 .home-comp h1{
     font-size: 34px;
-    margin: 10px 0px;
+    margin: 10px 0px 10px 50px;
 }
 .all-movies{
     width: 90%;

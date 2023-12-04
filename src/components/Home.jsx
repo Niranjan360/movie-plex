@@ -22,7 +22,7 @@ const Home = () => {
     return ( <div className="home-comp">
 
            {sliderMovies && 
-           <Sliderify slideDurationInSecs="3" showSpot={false} rounded={true}>
+           <Sliderify style={{width:"800px"}} slideDurationInSecs="3" showSpot={false} rounded={true}>
             {
                 sliderMovies.map((m)=>{ return(
                     <div style={{height:"500px",background:`url(${m.banner})`,backgroundRepeat:"no-repeat",backgroundSize:"cover" }}>
