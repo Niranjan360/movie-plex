@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .sidebar-comp{
-    background: linear-gradient(90deg , rgb(0, 0, 73) , transparent);
+    background: linear-gradient(90deg , rgb(0, 0, 0) , transparent);
     width: 400px;
     height: 100vh;
     position: fixed;

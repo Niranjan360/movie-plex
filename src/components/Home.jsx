@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import '../styles/home.css'
 import Movielist from './Movielist';
-import { Sliderify } from "react-sliderify";
+import { Sliderify } from "react-sliderify";    
 
 
 const Home = () => {
@@ -22,11 +22,11 @@ const Home = () => {
     return ( <div className="home-comp">
 
            {sliderMovies && 
-           <Sliderify>
+           <Sliderify slideDurationInSecs="3" showSpot={false} rounded={true}>
             {
                 sliderMovies.map((m)=>{ return(
-                                                <div style={{ height: "500px", background: `url(${m.banner})`, backgroundRepeat: "no-repeat",backgroundSize:"cover" }}>
-                                                </div>
+                    <div style={{height:"500px",background:`url(${m.banner})`,backgroundRepeat:"no-repeat",backgroundSize:"cover" }}>
+                    </div>
                 )})
             }
             </Sliderify>}
