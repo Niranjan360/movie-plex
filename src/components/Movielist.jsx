@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Movielist = ({movies , title}) => {
     return ( <>
                 <h1>{title}</h1>
@@ -7,8 +9,10 @@ const Movielist = ({movies , title}) => {
                             return(
                                 <div className='movie' 
                                 style={{background:`url(${movie.poster})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-                                    <h1>{movie.moviename}</h1>
-                                    <h3>{movie.release_date}</h3>
+                                    <Link to={`/description/${movie.id}`}>
+                                        <h1>{movie.moviename}</h1>
+                                        <h3>{movie.release_date}</h3>
+                                    </Link>
                                 </div>
                             )
                         })
