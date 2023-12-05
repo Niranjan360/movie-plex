@@ -8,7 +8,7 @@ const Movielist = ({movies , title}) => {
                         movies.map((movie)=>{
                             return(
                                 <div className='movie' 
-                                style={{background:`url(${movie.poster})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+                                style={{background:`linear-gradient(transparent 0% , transparent 50%  , black), url(${movie.poster})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                                     <Link to={`/description/${movie.id}`}>
                                         <h1>{movie.moviename}</h1>
                                         <h3>{movie.release_date}</h3>
