@@ -1,0 +1,15 @@
+.addmovie-comp h1{
+    text-align: center;
+}
+form{
+    background-color: rgb(184, 184, 184);
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    margin:20px auto;
+}
+input[type="text"],input[type="submit"],textarea
+{
+    display: block;
+}
+
