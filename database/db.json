@@ -217,7 +217,7 @@
         "Telugu",
         "Hindi"
       ],
-      "trailerLink": "https://www.example.com/drishyam-trailer",
+      "": "https://www.example.com/drishyam-trailer",
       "poster": "https://files.prokerala.com/movies/pics/800/movie-posters-24083.jpg",
       "banner": "https://img.nowrunning.com/content/movie/2013/Drishyam/bg1.jpg"
     },
@@ -397,6 +397,34 @@
       "trailer_link": "https://www.youtube.com/embed/-KfsY-qwBS0?si=dHakex7DJtzFxR28",
       "banner": "https://www.koimoi.com/wp-content/new-galleries/2022/04/kgf-sets-foot-in-metaverse-fans-snap-up-nfts-in-record-time-001.jpg",
       "id": 17
+    },
+    {
+      "moviename": "Leo",
+      "hero": "vijay",
+      "heroine": "Thrisha",
+      "director": "lokesh ",
+      "production_house": "KVN",
+      "budget": "200cr",
+      "collection": "600cr",
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "release_date": "2023",
+      "rating": "8",
+      "description": "Leo (also marketed as Leo: Bloody Sweet) is a 2023 Indian Tamil-language action thriller film[7] directed by Lokesh Kanagaraj and produced by Seven Screen Studio. The film stars Vijay in the titular role, alongside Sanjay Dutt, Arjun Sarja, Trisha, Gautham Vasudev Menon, Mysskin, Madonna Sebastian, George Maryan, Mansoor Ali Khan, Priya Anand and Mathew Thomas. It is the third installment in the Lokesh Cinematic Universe and is inspired by A History of Violence (2005), an adaptation of the graphic novel of the same name. The film follows Parthi, a café owner and animal rescuer in Theog, who is pursued by gangsters Antony and Harold Das who suspect him to be Antony's estranged son, Leo.\n\nThe film was officially announced in January 2023 under the tentative title Thalapathy 67, as it is Vijay's 67th film as a lead actor, and the official title was announced a few days later. Principal photography commenced the same month in Chennai along with a sporadic schedule in Kashmir, which was again followed by another schedule held at the former location, and wrapped by mid-July. The film has music composed by Anirudh Ravichander, cinematography handled by Manoj Paramahamsa and editing by Philomin Raj.",
+      "duration": "3hrs 4min",
+      "languages": [
+        "Hindi",
+        "Kannada",
+        "Tamil",
+        "Telgu",
+        "Malayalam"
+      ],
+      "trailer_link": "https://www.youtube.com/embed/Po3jStA673E?si=oqJFrarmo0lG9nKu",
+      "banner": "https://static.toiimg.com/thumb/msid-101172246,width-1280,resizemode-4/101172246.jpg",
+      "poster": "https://static.moviecrow.com/gallery/20230918/221063-Leo%20Vijay%20Kannada.jpg",
+      "id": 18
     }
   ]
 }

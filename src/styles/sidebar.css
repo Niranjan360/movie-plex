@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .sidebar-comp{
-    background-color: rgba(255, 255, 255, 0.588);
+    background-color: rgba(0, 0, 0, 0.683);
     backdrop-filter: blur(7px);
     width: 100vw;
     height: 80px;
@@ -31,11 +31,10 @@
 .nav-links a{
     display: flex;
     align-items: center;
-    color: rgb(40, 40, 40);
+    color: white;
     font-size: 23px;
     font-weight: 600;
     text-decoration: none;
-    transition: 0.3s;   
 }
 .nav-links a span{
     margin-right: 10px;
