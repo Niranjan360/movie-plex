@@ -9,7 +9,9 @@ import 'react-toastify/dist/ReactToastify.css';
 const Addmovie = () => {
 
     let yearsArray = [];
-    for (let year = 1950; year <= 2023; year++) {
+    for (let year = 1950; year <= 2023; year++) 
+    
+    {
         yearsArray.push(year);
     }
     
@@ -76,7 +78,6 @@ const Addmovie = () => {
             }
         }
 
-    
         // post the data to db
         fetch("http://localhost:4000/movies" , 
                                                 {
@@ -89,8 +90,6 @@ const Addmovie = () => {
             setTimeout(()=>{ navigate("/")}, 2000);
         })
     }
-
-
     
     return ( 
     <div className="addmovie-comp">

@@ -37,3 +37,11 @@
 .trailer{
     margin-left: 200px;
 }
+
+.del-btn{
+    background-color: tomato;
+    color: white;
+    padding: 10px 30px;
+    margin: 30px 0px 30px 200px;
+
+}

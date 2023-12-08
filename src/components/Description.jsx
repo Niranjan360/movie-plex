@@ -1,14 +1,18 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import ScaleLoader from 'react-spinners/ScaleLoader'
 import '../styles/description.css'
 import Movielist from "./Movielist";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+
 
 const Description = () => {
 
     let {id} = useParams();
     let[movie , setMovie] = useState(null);
     let[movies , setMovies] = useState(null);
+    let navigate = useNavigate();
 
 
     useEffect(()=>{
@@ -26,6 +30,19 @@ const Description = () => {
             console.log(data);
         })
     } , [])
+
+    let handleDeleteMovie = ()=>{
+        if( window.confirm("Are you sure ?") )
+        {
+            fetch("http://localhost:4000/movies/"+id , {method:"DELETE"})
+            .then(()=>{
+                toast("Movie is deleted from database" , {
+                                                            position: "bottom-right",
+                                                            autoClose: 5000});
+                navigate("/")
+            })
+        }
+    }
 
     
     return ( <div className="description-comp">
@@ -51,9 +68,13 @@ const Description = () => {
                     <iframe width="560" height="315" src={movie.trailer_link} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
 
+                <button className="del-btn" onClick={handleDeleteMovie}> Delete Movie </button>
+
                 {movies && <Movielist movies={movies.filter((m)=>{ return m.genre.includes(movie.genre)})} title="Similar Movies"/>}
             </>         
             }
+
+            <ToastContainer />
 
             </div> );
 }

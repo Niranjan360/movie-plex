@@ -14,7 +14,7 @@
     align-items: center;
     position: sticky;
     top: 0px;
-    z-index: 100000;
+    z-index: 1000;
 }
 .sidebar-comp img{
     width: 50px;
