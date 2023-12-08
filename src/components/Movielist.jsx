@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Movielist = ({movies , title}) => {
     return ( <>
-                <h1>{title}</h1>
+                <h1 className="title">{title}</h1>
                 <div className="all-movies">
                     {
                         movies.map((movie)=>{

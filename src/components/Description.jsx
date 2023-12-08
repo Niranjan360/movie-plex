@@ -4,7 +4,7 @@ import ScaleLoader from 'react-spinners/ScaleLoader'
 import '../styles/description.css'
 import Movielist from "./Movielist";
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Description = () => {
