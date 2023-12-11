@@ -1,29 +1,33 @@
 {
   "movies": [
     {
-      "id": 1,
-      "moviename": "KGF 1",
+      "moviename": "Kolar Gold Fileds (KGF)",
       "hero": "Yash",
       "heroine": "Shree nidhi",
       "director": "Prashanth neel",
       "production_house": "Hombale",
-      "budget": "100cr",
-      "collection": "800cr",
-      "genre": "Action drama",
-      "release_date": "2019",
-      "rating": "9.1",
+      "budget": "100crcrcrcr",
+      "collection": "800crcrcrcr",
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "release_date": "",
+      "rating": "8.9",
       "description": "KGF is an Indian period action film series set mostly in the Kolar Gold Fields, which gives the series its name, created by Prashanth Neel and produced by Hombale Films starring Yash in lead role with an ensemble supporting cast.[4] Set in the late 1970s and early 1980s, the series follows two narrators, Anand Ingalangi and his son Vijayendra Ingalangi, who gives an interview of a book written by Anand to a leading news channel, which tells the life story of Raja Krishnappa Bairya alias Rocky (Yash), a Mumbai-based high ranking mercenary born in poverty and how he became the most dreaded person at that time.",
-      "duration": "2h 45mins",
+      "duration": "0hrs 0min",
       "languages": [
-        "Kannada",
+        "English",
         "Hindi",
+        "Kannada",
         "Tamil",
         "Telgu",
-        "English"
+        "Malayalam"
       ],
       "trailer_link": "https://www.youtube.com/embed/-KfsY-qwBS0?si=dHakex7DJtzFxR28",
       "banner": "https://www.koimoi.com/wp-content/new-galleries/2022/04/kgf-sets-foot-in-metaverse-fans-snap-up-nfts-in-record-time-001.jpg",
-      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZJurW850ixrap5RNu1KFvzbXHParFcWkDFhkg1K9q0QFUaWAge3V01ZfktWbXxDHg2g&usqp=CAU"
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZJurW850ixrap5RNu1KFvzbXHParFcWkDFhkg1K9q0QFUaWAge3V01ZfktWbXxDHg2g&usqp=CAU",
+      "id": 1
     },
     {
       "id": 2,

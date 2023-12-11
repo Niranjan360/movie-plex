@@ -6,6 +6,7 @@ import Profile from './components/Profile';
 import Search from './components/Search';
 import Sidebar from './components/Sidebar';
 import {BrowserRouter , Routes , Route} from 'react-router-dom' 
+import Update from './components/Update';
 
 function App() {
   return (
@@ -17,8 +18,11 @@ function App() {
           <Route path='/search' element={<Search/>}/>
           <Route path='/add' element={<Addmovie/>}/>
           <Route path='/profile' element={<Profile/>}/>
-          <Route path='/description/:id' 
-          element={<Description/>}/>
+          <Route path='/description/:id' element={<Description/>}/>
+          
+          <Route path='/update/:id' 
+          element={<Update/>}/>
+          
         </Routes>
     </div>
     </BrowserRouter>

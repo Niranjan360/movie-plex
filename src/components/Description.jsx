@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import ScaleLoader from 'react-spinners/ScaleLoader'
 import '../styles/description.css'
 import Movielist from "./Movielist";
@@ -69,6 +69,10 @@ const Description = () => {
                 </div>
 
                 <button className="del-btn" onClick={handleDeleteMovie}> Delete Movie </button>
+
+                <Link to={`/update/${id}`} className="upd-btn">
+                    <button> Update movie </button>
+                </Link>
 
                 {movies && <Movielist movies={movies.filter((m)=>{ return m.genre.includes(movie.genre)})} title="Similar Movies"/>}
             </>         
