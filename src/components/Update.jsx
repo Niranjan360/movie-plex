@@ -53,7 +53,7 @@ const Update = () => {
 
 
 
-    let handlAddMovie = (e)=>{
+    let handlUpdateMovie = (e)=>{
         // stop the default actions done by subbmission event
         e.preventDefault();
 
@@ -113,7 +113,7 @@ const Update = () => {
     <div className="addmovie-comp">
         <h1>Update Movie</h1>
 
-        <form onSubmit={handlAddMovie}>  
+        <form onSubmit={handlUpdateMovie}>  
             <div className='cl1'>
                 <input type="text" placeholder="Movie Name" value={movie} onChange={(e)=>{setmovie(e.target.value);}}/>
                 <input type="text" placeholder="Hero Name" value={hero} onChange={(e)=>{setHero(e.target.value);}}/>
